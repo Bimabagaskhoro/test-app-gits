@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GitsTestApp</string>
+    <string name="soal1">SOAL 1</string>
+    <string name="soal2">SOAL 2</string>
+    <string name="soal3">SOAL 3</string>
+    <string name="soal4">SOAL 4</string>
+    <string name="soal5">SOAL 5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_text">Input Text</string>
+    <string name="palindrom">palindrom</string>
+    <string name="input_angka">input angka</string>
+    <string name="hasil">hasil</string>
+    <string name="button">Button</string>
+    <string name="output">output</string>
+    <string name="input_clock">input clock</string>
+    <string name="input_email">input email</string>
+</resources>

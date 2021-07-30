@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="55dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Soal1Fragment"
+    tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/tv_tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_angka"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="15dp" />
+
+        <EditText
+            android:id="@+id/edt_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tools"
+            tools:layout_editor_absoluteX="15dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            app:layout_constraintEnd_toEndOf="@+id/edt_number"
+            app:layout_constraintStart_toStartOf="@+id/edt_number"
+            app:layout_constraintTop_toBottomOf="@+id/edt_number" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="@string/output"
+            app:layout_constraintEnd_toEndOf="@+id/edt_number"
+            app:layout_constraintStart_toStartOf="@+id/edt_number"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="soal 2 \nMengecek angka habis dibagi 3 atau 5"
+            app:layout_constraintEnd_toEndOf="@+id/tv_number"
+            app:layout_constraintStart_toStartOf="@+id/tv_number"
+            app:layout_constraintTop_toBottomOf="@+id/tv_number" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
